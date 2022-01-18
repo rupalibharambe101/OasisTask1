@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width , intial-scale=1.0">
+<title>WRITER</title>
+<link rel="stylesheet" href="./Styleoasis.css">
+
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>HOME</li>
+            <li><a href="#"></a>TOURS</li>
+            <li><a href="#"></a>EXPLORE</li>
+            <li><a href="#"></a>ABOUT US</li>
+            <li class="ctn"><a href="#"></a>CONTACT</li>
+        </ul>
+        <img src="./menu1.png" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore The Colorful World</h2>
+            <div class="line"></div>
+            <h1>A WORLD GIFT</h1>
+            <a href="#" class="ctn">Learn More</a>
+           
+        </div>
+    </header>
+    <!--Event-->
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="Goa.jpg" alt="">
+                <h4> Event Camp Trek</h4>
+                <p>Think of Goa, and think of a coastal retreat with sights of gleaming sands and azure waters with a shimmering sun in the backdrop.</p>
+                <a href="#" class="ctn">Learn More</a>            
+            </div>
+            <div class="col">
+                <img src="maldives.jpg" alt="">
+                <h4>Make My Trip</h4>
+                <p>Maldives is easily a year-round destination. The best time to visit Maldives is during Dec to Apr when the island experiences dry weather with little or no rain showers, making it the peak tourist season here.</p>
+                <a href="#" class="ctn">Learn More</a>            
+            </div>
+            <div class="col">
+                <img src="Blue-Lagoon,iceland.jpg" alt="">
+                <h4> Event Iceland</h4>
+                <p>The Blue Lagoon is a geothermal spa found on the Reykjanes Peninsula in southwest Iceland. It is the most popular attraction in Iceland, drawing people from all across the world.</p>
+                <a href="#" class="ctn">Learn More</a>            
+            </div>
+        </div>
+    </section>
+    <section class="explore">
+        <div class="explore-content">
+        <h1>Explore The World</h1>
+        <div class="line"></div>
+        <p>Explore our range of over 500 amazing adventure holidays and small group tours, and enjoy unforgettable experiences with our expert local guides.</p>
+        <a href="#" class="ctn">Learn More</a>
+    </div>
+    </section>
+    <section class="footer">
+        <p>123 ABC Avenue , Pune , Maharashtra-41100</p>
+        <p>Copyright © 2022 TRAVEL ADVENTURE. All Rights Reserved.</p>
+    </section>
+    <script>
+        const menuBtn=document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+
+</body>
+</html>
